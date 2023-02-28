@@ -1,0 +1,112 @@
+name: fifa
+description: eFotball app
+version: 1.0.51+51
+publish_to: none
+
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  # Core
+  dio: ^4.0.6
+  equatable: ^2.0.3
+  flutter_bloc: ^7.3.3
+  intl: ^0.17.0
+  routemaster: ^1.0.1
+  get_it: ^7.2.0
+  fpdart: ^0.2.0
+  provider: ^6.0.3
+  quiver: ^3.1.0
+
+  # Data
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  shared_preferences: ^2.0.15
+  freezed_annotation: ^2.1.0
+  json_annotation: ^4.6.0
+  async_data_bloc:
+    path: packages/async_data_bloc
+
+  #Services
+  sentry_flutter: ^6.8.0
+  pusher_client:
+    git:
+      url: https://github.com/fabiancrx/pusher_client
+      ref: 7da7dddb
+  firebase_core: ^1.20.0
+  firebase_messaging: ^12.0.1
+  firebase_messaging_web: ^3.1.0
+  firebase_core_web: ^1.7.1
+  # Presentation
+  flutter_staggered_grid_view: ^0.6.2
+  font_awesome_flutter: ^10.1.0
+  auto_size_text: ^3.0.0
+  shimmer: ^2.0.0
+  country_code_picker: ^2.0.2
+  cached_network_image: ^3.2.1
+  flutter_html: ^3.0.0-alpha.5
+  flutter_staggered_animations: ^1.0.0
+  sliver_tools: ^0.2.7
+  ##  If other locales are added other than eng/spa they must be added to this library
+  timeago: ^3.2.2
+  sized_context: ^1.0.0+1
+  ##  Highlight links in texts
+  linkfy_text: ^1.1.5
+  uni_links: ^0.5.1
+  url_launcher: ^6.1.5
+  flutter_keyboard_visibility:
+    git:
+      url: https://github.com/fabiancrx/flutter_keyboard_visibility
+      path: flutter_keyboard_visibility
+  image_picker: ^0.8.5+3
+  graphview: ^1.1.1
+  youtube_metadata: ^1.0.1
+  animations: ^2.0.3
+  extended_nested_scroll_view: ^5.1.3
+  flutter_svg: ^1.1.1+1
+  webview_flutter: ^3.0.4
+
+dependency_overrides:
+  modal_bottom_sheet: ^2.0.1
+
+dev_dependencies:
+  build_runner:
+  flutter_test:
+    sdk: flutter
+  integration_test:
+    sdk: flutter
+  test: ^1.16.0
+  bloc_test: ^8.5.0
+  freezed: ^2.1.0+1
+  json_serializable: ^6.2.0
+  mockingjay: ^0.2.0
+  mocktail_image_network: ^0.2.0
+  very_good_analysis: ^3.0.1
+  very_good_performance: ^0.0.4
+flutter:
+  generate: true
+  uses-material-design: true
+
+
+  assets:
+    - assets/images/
+
+
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins-Regular.ttf
+    - family: EFotball
+      fonts:
+        - asset: assets/fonts/EFotball.ttf
+
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages

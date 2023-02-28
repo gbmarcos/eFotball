@@ -1,0 +1,82 @@
+{
+  "project_info": {
+    "project_number": "732744668889",
+    "project_id": "efotball-8e3d2",
+    "storage_bucket": "efotball-8e3d2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:732744668889:android:9434b8d5833763016410c8",
+        "android_client_info": {
+          "package_name": "se.doctype.efotboll"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "732744668889-co07jq5maufjlh3l0ktjtb77gaa1h2gg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD7EcvBLnPLGNkYyYqhkP-JM4yIWLeytQM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "732744668889-co07jq5maufjlh3l0ktjtb77gaa1h2gg.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "732744668889-h1aeekmu01bhqglok3ldn860k3ulrck6.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "se.efotboll"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:732744668889:android:a5f8d5e24c70dd976410c8",
+        "android_client_info": {
+          "package_name": "se.doctype.efotboll.stg"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "732744668889-co07jq5maufjlh3l0ktjtb77gaa1h2gg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD7EcvBLnPLGNkYyYqhkP-JM4yIWLeytQM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "732744668889-co07jq5maufjlh3l0ktjtb77gaa1h2gg.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "732744668889-h1aeekmu01bhqglok3ldn860k3ulrck6.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "se.efotboll"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

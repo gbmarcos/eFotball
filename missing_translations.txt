@@ -1,0 +1,21 @@
+{
+  "sv": [
+    "searchFriends",
+    "searchMatches",
+    "yourOpponentDidNotCheckIn",
+    "youDidNotCheckIn",
+    "couldNotFindAUrlToRedirect",
+    "liveNow",
+    "fansWatching",
+    "joinEvent",
+    "vs",
+    "connect",
+    "disconnect",
+    "searchingForOpponent",
+    "playersOnline",
+    "notice",
+    "youStillHaveAMatch",
+    "gotoMatch",
+    "close"
+  ]
+}

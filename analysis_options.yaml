@@ -1,0 +1,20 @@
+
+include: package:very_good_analysis/analysis_options.yaml
+
+linter:
+  rules:
+    sort_constructors_first: false
+    public_member_api_docs: false
+    lines_longer_than_80_chars: false
+
+analyzer:
+  exclude:
+    - "coverage/**"
+    - "**/*.g.dart"
+    - "**/*.freezed.dart"
+    - "**/*.json.dart"
+  errors:
+    invalid_annotation_target: ignore
+  strong-mode:
+    implicit-casts: false
+    implicit-dynamic: false
